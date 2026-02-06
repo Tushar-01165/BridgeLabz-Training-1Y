@@ -1,11 +1,9 @@
-import java.util.Scanner;
-class AgeofHarry {
-	public static void main (String[] args){
-		Scanner am=new Scanner(System.in);
-		int BirthYear = 2000;
-		int CurrentYear = 2024;
-		int age = CurrentYear - BirthYear;
-		System.out.println(age);
+class AgeOfHarry{
+	public static void main(String args[]){
+		int birthyear=2000;
+		int currentyear=2024;
+		int age=currentyear-birthyear;
+		System.out.println("Harry's age in 2024 is " + age);
 	}
-}
 	
+}
